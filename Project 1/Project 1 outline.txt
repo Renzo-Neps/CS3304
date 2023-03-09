@@ -1,0 +1,19 @@
+<verb>        -->  lifted | saw | found
+<adv>         -->  quickly | carefully | brilliantly
+<noun>        -->  cow | alice | book
+<adj>         -->  green | lean | mean
+<prep>        -->  of | at | with
+
+
+Sentence
+ - Subject
+	- Noun phrase
+		- Adjective phrase
+			- Adjective or Adjective Adjective phrase
+		- noun
+		- Preposition phrase
+			- Preposition Noun phrase
+ - Verb phrase
+	- Verb or Verb Adverb
+ - Object
+	- Noun phrase

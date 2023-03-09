@@ -1,0 +1,100 @@
+---
+02-22-2023 09:15:05PM
+Score: 80.0
+
+|======================================================================|
+|	[input.txt]
+|======================================================================|
+lean cow at green book at alice saw carefully mean book
+green cow of cow lifted carefully mean lean book at alice
+rdm found cow at alice
+book book cow of cow
+esben found alice
+wib saw lean alice at alice with alice of cow
+zaafiw found brilliantly book
+cow book lean book of alice
+green lean alice of lean green cow of green book with green alice
+snpluy lifted quickly cow of mean cow
+cow at green alice
+green mean alice of cow with mean book
+mean alice with lean mean book with cow at mean alice with alice at book of cow at lean alice of mean mean alice with alice saw carefully lean mean alice
+mean green cow with book at cow with lean alice found carefully cow
+alice found lean alice of book
+
+
+
+|======================================================================|
+|	[output.txt]
+|======================================================================|
+input-line => lean cow at green book at alice saw carefully mean book 
+    ((((lean)cow(at((green)book(at(alice)))))) (saw carefully) (((mean)book)))
+input-line => green cow of cow lifted carefully mean lean book at alice 
+    ((((green)cow(of(cow)))) (lifted carefully) (((mean(lean))book(at(alice)))))
+input-line => rdm found cow at alice 
+    Input has invalid tokens.
+input-line => book book cow of cow 
+    Input is not a sentence.
+input-line => esben found alice 
+    Input has invalid tokens.
+input-line => wib saw lean alice at alice with alice of cow 
+    Input has invalid tokens.
+input-line => zaafiw found brilliantly book 
+    Input has invalid tokens.
+input-line => cow book lean book of alice 
+    Input is not a sentence.
+input-line => green lean alice of lean green cow of green book with green alice 
+    Input is not a sentence.
+input-line => snpluy lifted quickly cow of mean cow 
+    Input has invalid tokens.
+input-line => cow at green alice 
+    Input is not a sentence.
+input-line => green mean alice of cow with mean book 
+    Input is not a sentence.
+input-line => mean alice with lean mean book with cow at mean alice with alice at book of cow at lean alice of mean mean alice with alice saw carefully lean mean alice 
+    ((((mean)alice(with((lean(mean))book(with(cow(at((mean)alice(with(alice(at(book(of(cow(at((lean)alice(of((mean(mean))alice(with(alice)))))))))))))))))))) (saw carefully) (((lean(mean))alice)))
+input-line => mean green cow with book at cow with lean alice found carefully cow 
+    ((((mean(green))cow(with(book(at(cow(with((lean)alice)))))))) (found carefully) ((cow)))
+input-line => alice found lean alice of book 
+    (((alice)) (found) (((lean)alice(of(book)))))
+input-line =>  
+    Input has invalid tokens.
+
+
+|======================================================================|
+|	[prof-output.txt]
+|======================================================================|
+input-line => lean cow at green book at alice saw carefully mean book
+	((((lean)cow(at((green)book(at(alice)))))) (saw carefully) (((mean)book)))
+input-line => green cow of cow lifted carefully mean lean book at alice
+	((((green)cow(of(cow)))) (lifted carefully) (((mean(lean))book(at(alice)))))
+input-line => rdm found cow at alice
+	Input has invalid tokens.
+input-line => book book cow of cow
+	Input is not a sentence.
+input-line => esben found alice
+	Input has invalid tokens.
+input-line => wib saw lean alice at alice with alice of cow
+	Input has invalid tokens.
+input-line => zaafiw found brilliantly book
+	Input has invalid tokens.
+input-line => cow book lean book of alice
+	Input is not a sentence.
+input-line => green lean alice of lean green cow of green book with green alice
+	Input is not a sentence.
+input-line => snpluy lifted quickly cow of mean cow
+	Input has invalid tokens.
+input-line => cow at green alice
+	Input is not a sentence.
+input-line => green mean alice of cow with mean book
+	Input is not a sentence.
+input-line => mean alice with lean mean book with cow at mean alice with alice at book of cow at lean alice of mean mean alice with alice saw carefully lean mean alice
+	((((mean)alice(with((lean(mean))book(with(cow(at((mean)alice(with(alice(at(book(of(cow(at((lean)alice(of((mean(mean))alice(with(alice)))))))))))))))))))) (saw carefully) (((lean(mean))alice)))
+input-line => mean green cow with book at cow with lean alice found carefully cow
+	((((mean(green))cow(with(book(at(cow(with((lean)alice)))))))) (found carefully) ((cow)))
+input-line => alice found lean alice of book
+	(((alice)) (found) (((lean)alice(of(book)))))
+
+
+Difference:
+
+Found zero differences between solution and student output
